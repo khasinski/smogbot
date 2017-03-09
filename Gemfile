@@ -20,12 +20,18 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'httparty', '~> 0.13'
+gem 'solid_use_case', '~> 2.1'
+gem 'virtus', '~> 1.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+  gem 'pry'
+  gem 'rspec-rails', '~> 3.5'
+  gem 'vcr', '~> 3.0'
+  gem 'webmock', '~> 1.22'
 end
 
 group :development do

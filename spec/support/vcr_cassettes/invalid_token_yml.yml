@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.waqi.info/feed/Pozna%C5%84/?token=invalid_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 09 Mar 2017 21:43:11 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Gen-Time:
+      - '81'
+      X-Powered-By:
+      - rxstreamer-waqi/1.1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"error","data":"Invalid key"}'
+    http_version: 
+  recorded_at: Thu, 09 Mar 2017 21:43:09 GMT
+recorded_with: VCR 3.0.3

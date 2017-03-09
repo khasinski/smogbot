@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.waqi.info/feed/Pozna%C5%84/?token=3caabd8e028bf9001add4c4e5fb67f393de05931
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 09 Mar 2017 21:43:10 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Gen-Time:
+      - '809'
+      X-Powered-By:
+      - rxstreamer-waqi/1.1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdGF0dXMiOiJvayIsImRhdGEiOnsiYXFpIjo4MCwiaWR4Ijo2NTMxLCJh
+        dHRyaWJ1dGlvbnMiOlt7InVybCI6Imh0dHA6Ly9wb3dpZXRyemUucG96bmFu
+        Lndpb3MuZ292LnBsLyIsIm5hbWUiOiJXaWVsa29wb2xza2kgTW9uaXRvcmlu
+        ZyBuZXR3b3JrIn1dLCJjaXR5Ijp7ImdlbyI6WzE2Ljk1OTUxOTQ0LDUyLjM5
+        ODE3NV0sIm5hbWUiOiJQb3puYcWEIDEgdWwuIFBvbGFua2EiLCJ1cmwiOiJo
+        dHRwOi8vYXFpY24ub3JnL2NpdHkvcG9sYW5kL3dpZWxrb3BvbHNraS9wb3pu
+        YW4tMS11bC4tcG9sYW5rYS8ifSwiZG9taW5lbnRwb2wiOiJwbTI1IiwiaWFx
+        aSI6eyJjbyI6eyJ2IjowLjF9LCJoIjp7InYiOjg2Ljc1NX0sIm5vMiI6eyJ2
+        IjoxOH0sInAiOnsidiI6MTAwNy42NH0sInBtMTAiOnsidiI6MzB9LCJwbTI1
+        Ijp7InYiOjgwfSwic28yIjp7InYiOjEuNX0sInQiOnsidiI6NC45ODV9LCJ3
+        Ijp7InYiOjAuNTcxNzMxfSwid2QiOnsidiI6MTUxLjgwMX19LCJ0aW1lIjp7
+        InMiOiIyMDE3LTAzLTA5IDIxOjAwOjAwIiwidHoiOiIrMDE6MDAiLCJ2Ijox
+        NDg5MDkzMjAwfX19
+    http_version: 
+  recorded_at: Thu, 09 Mar 2017 21:43:09 GMT
+recorded_with: VCR 3.0.3
